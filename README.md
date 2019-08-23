@@ -14,7 +14,7 @@ If you have any issues, please write me on kirill.bugaev87@gmail.com.
 
 ## Issues
 
-### Path to base16 assign wrong
+### Path to base16 assigns wrong
 
 Try to hardcode path in `base16/util/path_to_base16.lua`
 
