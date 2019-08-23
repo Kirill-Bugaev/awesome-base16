@@ -12,6 +12,18 @@ Copy `base16` directory from `awesome-base16` directory to your Awesome WM confi
 
 If you have any issues, please write me on kirill.bugaev87@gmail.com.
 
+## Screenshots
+dracula
+![dracula](https://github.com/Kirill-Bugaev/awesome-base16/blob/master/screenshots/dracula.png)
+gruvbox
+![gruvbox](https://github.com/Kirill-Bugaev/awesome-base16/blob/master/screenshots/gruvbox.png)
+nord
+![nord](https://github.com/Kirill-Bugaev/awesome-base16/blob/master/screenshots/nord.png)
+solarized light
+![solarized light](https://github.com/Kirill-Bugaev/awesome-base16/blob/master/screenshots/solarized-light.png)
+solarized dark
+![solarized dark](https://github.com/Kirill-Bugaev/awesome-base16/blob/master/screenshots/solarized.png)
+
 ## Issues
 
 ### Path to base16 assigns wrong
