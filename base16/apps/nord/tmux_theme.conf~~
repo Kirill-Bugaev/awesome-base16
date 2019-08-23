@@ -1,0 +1,81 @@
+#
+# Powerline Double Blue - Tmux Theme
+# Created by Jim Myhrberg <contact@jimeh.me>.
+#
+# Inspired by vim-powerline: https://github.com/Lokaltog/powerline
+#
+# Requires terminal to be using a powerline compatible font, find one here:
+# https://github.com/Lokaltog/powerline-fonts
+#
+
+# Status update interval
+set -g status-interval 1
+
+# ! Force switch on status bar !
+set -g status on
+
+# Basic status bar colors
+#set -g status-fg colour238
+#set -g status-bg colour233
+set -g status-fg colour15
+set -g status-bg colour8
+
+# Left side of status bar
+#set -g status-left-bg colour233
+#set -g status-left-fg colour243
+set -g status-left-bg colour8
+set -g status-left-fg colour15
+set -g status-left-length 40
+set -g status-left "#[fg=colour15,bg=colour11,bold] #S #[fg=colour11,bg=colour8,nobold]#[fg=colour15,bg=colour8] #(whoami) #[fg=colour8,bg=colour11]#[fg=colour15,bg=colour11] #I:#P #[fg=colour11,bg=colour8,nobold]"
+
+# Right side of status bar
+set -g status-right-bg colour8
+set -g status-right-fg colour15
+set -g status-right-length 150
+set -g status-right "#[fg=colour11,bg=colour8]#[fg=colour15,bg=colour11] %H:%M:%S #[fg=colour8,bg=colour11]#[fg=colour15,bg=colour8] %d-%b-%y #[fg=colour11,bg=colour8]#[fg=colour15,bg=colour11,bold] #H "
+
+# Window status
+set -g window-status-format "  #I:#W#F  "
+set -g window-status-current-format "#[fg=colour8,bg=black]#[fg=colour4,nobold] #I:#W#F #[fg=colour8,bg=black,nobold]"
+
+# Current window status
+set -g window-status-current-bg colour4
+set -g window-status-current-fg colour15
+
+# Window with activity status
+set -g window-status-activity-bg colour14 # fg and bg are flipped here due to
+set -g window-status-activity-fg colour15 # a bug in tmux
+
+# Window separator
+set -g window-status-separator ""
+
+# Window status alignment
+set -g status-justify centre
+
+# Pane border
+set -g pane-border-bg default
+set -g pane-border-fg colour11
+
+# Active pane border
+set -g pane-active-border-bg default
+set -g pane-active-border-fg colour4
+
+# Pane number indicator
+set -g display-panes-colour colour15
+set -g display-panes-active-colour colour11
+
+# Clock mode
+set -g clock-mode-colour colour4
+set -g clock-mode-style 24
+
+# Message
+set -g message-bg colour4
+set -g message-fg white
+
+# Command message
+set -g message-command-bg colour15
+set -g message-command-fg black
+
+# Mode
+set -g mode-bg colour4
+set -g mode-fg colour15

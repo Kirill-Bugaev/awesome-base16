@@ -1,0 +1,66 @@
+! Base16 Gruvbox dark, hard
+! Scheme: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+
+#define base00 #1d2021
+#define base01 #3c3836
+#define base02 #504945
+#define base03 #665c54
+#define base04 #bdae93
+#define base05 #d5c4a1
+#define base06 #ebdbb2
+#define base07 #fbf1c7
+#define base08 #fb4934
+#define base09 #fe8019
+#define base0A #fabd2f
+#define base0B #b8bb26
+#define base0C #8ec07c
+#define base0D #83a598
+#define base0E #d3869b
+#define base0F #d65d0e
+
+#define gruvbox_darkred #cc241d
+#define gruvbox_red #d75f5f
+#define gruvbox_darkgreen #98971a
+#define gruvbox_green #b8bb26
+#define gruvbox_darkyellow #d79921
+#define gruvbox_yellow #fabd2f
+#define gruvbox_darkblue #458588
+#define gruvbox_blue #83a598
+#define gruvbox_darkmagenta #b16286
+#define gruvbox_magenta #d3869b
+#define gruvbox_darkcyan #689d6a
+#define gruvbox_cyan #8ec07c
+
+*foreground:   base05
+*background:   base00
+*cursorColor:  base05
+
+*color0:       base00
+#*color1:       base08
+#*color2:       base0B
+#*color3:       base0A
+#*color4:       base0D
+#*color5:       base0E
+#*color6:       base0C
+*color1:       gruvbox_darkred
+*color2:       gruvbox_darkgreen
+*color3:       gruvbox_darkyellow
+*color4:       gruvbox_darkblue
+*color5:       gruvbox_darkmagenta
+*color6:       gruvbox_darkcyan
+*color7:       base05
+
+*color8:       base03
+#*color9:       base09
+#*color10:      base01
+#*color11:      base02
+#*color12:      base04
+#*color13:      base06
+#*color14:      base0F
+*color9:       gruvbox_red
+*color10:      gruvbox_green
+*color11:      gruvbox_yellow
+*color12:      gruvbox_blue
+*color13:      gruvbox_magenta
+*color14:      gruvbox_cyan
+*color15:      base07

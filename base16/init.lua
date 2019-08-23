@@ -1,6 +1,7 @@
+
 --[[
 
-     Base16 color schemes for Awesome WM
+     Base16 util
 
      Licensed under GNU General Public License v2
       * (c) 2018, Kirill Bugaev
