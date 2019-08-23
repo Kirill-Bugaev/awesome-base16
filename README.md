@@ -16,7 +16,7 @@ If you have any issues, please write me on kirill.bugaev87@gmail.com.
 
 ### Path to base16 assigns wrong
 
-Try to hardcode path in `base16/util/path_to_base16.lua`
+Try to hardcode path in `awesome/base16/util/path_to_base16.lua`
 
 ```lua
 local base16_location = "/home/user1/.config/awesome/base16/"
